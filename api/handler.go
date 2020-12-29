@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/api/wrapper"
+	"github.com/thetogi/YReserve2/api/wrapper"
 )
 
 func (api *API) requestHandler(handler func(c *wrapper.RequestContext, w http.ResponseWriter, r *http.Request)) http.Handler {

@@ -3,7 +3,7 @@ package bus
 import (
 	"reflect"
 
-	"github.com/MiteshSharma/project/logger"
+	"github.com/thetogi/YReserve2/logger"
 	"go.uber.org/zap"
 )
 

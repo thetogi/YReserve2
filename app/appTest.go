@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MiteshSharma/project/repository"
-	"github.com/MiteshSharma/project/repository/docker"
+	"github.com/thetogi/YReserve2/repository"
+	"github.com/thetogi/YReserve2/repository/docker"
 
-	"github.com/MiteshSharma/project/bus"
+	"github.com/thetogi/YReserve2/bus"
 
-	"github.com/MiteshSharma/project/bi"
+	"github.com/thetogi/YReserve2/bi"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/metrics"
-	"github.com/MiteshSharma/project/setting"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/metrics"
+	"github.com/thetogi/YReserve2/setting"
 )
 
 type AppTest struct {

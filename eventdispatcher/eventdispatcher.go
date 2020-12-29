@@ -3,9 +3,9 @@ package eventdispatcher
 import (
 	"errors"
 
-	"github.com/MiteshSharma/project/bus"
+	"github.com/thetogi/YReserve2/bus"
 
-	"github.com/MiteshSharma/project/logger"
+	"github.com/thetogi/YReserve2/logger"
 )
 
 type EventDispatcher struct {

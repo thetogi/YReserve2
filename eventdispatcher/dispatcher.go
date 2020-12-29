@@ -1,9 +1,9 @@
 package eventdispatcher
 
 import (
-	"github.com/MiteshSharma/project/bus"
-	"github.com/MiteshSharma/project/logger"
 	uuid "github.com/satori/go.uuid"
+	"github.com/thetogi/YReserve2/bus"
+	"github.com/thetogi/YReserve2/logger"
 )
 
 type Dispatcher struct {

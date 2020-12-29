@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/MiteshSharma/project/model"
 	uuid "github.com/satori/go.uuid"
+	"github.com/thetogi/YReserve2/model"
 )
 
 func CheckCreatedStatus(t *testing.T, statusCode int) {

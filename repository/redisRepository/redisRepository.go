@@ -3,12 +3,12 @@ package redisRepository
 import (
 	"fmt"
 
-	"github.com/MiteshSharma/project/repository/sqlRepository"
+	"github.com/thetogi/YReserve2/repository/sqlRepository"
 
 	"github.com/go-redis/redis"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type RedisRepository struct {

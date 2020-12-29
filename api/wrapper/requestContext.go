@@ -3,8 +3,8 @@ package wrapper
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/app"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/app"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type RequestContext struct {

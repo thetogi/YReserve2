@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

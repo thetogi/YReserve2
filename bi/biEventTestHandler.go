@@ -3,7 +3,7 @@ package bi
 import (
 	"errors"
 
-	"github.com/MiteshSharma/project/eventdispatcher"
+	"github.com/thetogi/YReserve2/eventdispatcher"
 )
 
 // BiEvent struct to send all BI events

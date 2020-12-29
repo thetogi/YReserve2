@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MiteshSharma/project/repository/sqlRepository"
+	"github.com/thetogi/YReserve2/repository/sqlRepository"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type UserRepository struct {

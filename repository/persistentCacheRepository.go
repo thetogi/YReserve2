@@ -1,11 +1,11 @@
 package repository
 
 import (
-	"github.com/MiteshSharma/project/metrics"
-	"github.com/MiteshSharma/project/repository/redisRepository"
+	"github.com/thetogi/YReserve2/metrics"
+	"github.com/thetogi/YReserve2/repository/redisRepository"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type PersistentCacheRepository struct {

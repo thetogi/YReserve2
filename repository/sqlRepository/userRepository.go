@@ -3,7 +3,7 @@ package sqlRepository
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type UserRepository struct {

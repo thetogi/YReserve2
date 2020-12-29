@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/MiteshSharma/project/model"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
+	"github.com/thetogi/YReserve2/model"
 )
 
 var watchOnce sync.Once

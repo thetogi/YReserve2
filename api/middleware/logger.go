@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 
-	"github.com/MiteshSharma/project/logger"
+	"github.com/thetogi/YReserve2/logger"
 
 	"github.com/felixge/httpsnoop"
 )

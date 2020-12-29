@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MiteshSharma/project/app"
-	"github.com/MiteshSharma/project/model"
 	uuid "github.com/satori/go.uuid"
+	"github.com/thetogi/YReserve2/app"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type WebHandler struct {

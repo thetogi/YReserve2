@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
-	"github.com/MiteshSharma/project/util"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
+	"github.com/thetogi/YReserve2/util"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )

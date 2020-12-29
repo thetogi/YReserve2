@@ -3,7 +3,7 @@ package app
 import (
 	"testing"
 
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 )
 
 func TestCreateUser(t *testing.T) {

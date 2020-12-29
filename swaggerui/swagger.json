@@ -391,7 +391,7 @@
           "format": "int64"
         }
       },
-      "x-go-package": "github.com/MiteshSharma/project/model"
+      "x-go-package": "github.com/thetogi/YReserve2/model"
     },
     "User": {
       "description": "User -- model for user data",
@@ -434,7 +434,7 @@
           "x-go-name": "UserID"
         }
       },
-      "x-go-package": "github.com/MiteshSharma/project/model"
+      "x-go-package": "github.com/thetogi/YReserve2/model"
     },
     "UserAuth": {
       "description": "UserAuth -- model for user auth",
@@ -449,7 +449,7 @@
           "$ref": "#/definitions/User"
         }
       },
-      "x-go-package": "github.com/MiteshSharma/project/model"
+      "x-go-package": "github.com/thetogi/YReserve2/model"
     },
     "UserDetail": {
       "description": "UserDetail struct",
@@ -494,7 +494,7 @@
           "x-go-name": "UtmSource"
         }
       },
-      "x-go-package": "github.com/MiteshSharma/project/model"
+      "x-go-package": "github.com/thetogi/YReserve2/model"
     }
   },
   "responses": {

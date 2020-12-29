@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/api/wrapper"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/api/wrapper"
+	"github.com/thetogi/YReserve2/model"
 )
 
 func (a *API) InitUserDetail() {

@@ -3,12 +3,12 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
 	"github.com/gorilla/context"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	zipkin "github.com/openzipkin/zipkin-go-opentracing"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
 )
 
 const (

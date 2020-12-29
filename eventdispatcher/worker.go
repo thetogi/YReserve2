@@ -1,8 +1,8 @@
 package eventdispatcher
 
 import (
-	"github.com/MiteshSharma/project/bus"
-	"github.com/MiteshSharma/project/logger"
+	"github.com/thetogi/YReserve2/bus"
+	"github.com/thetogi/YReserve2/logger"
 )
 
 type Worker struct {

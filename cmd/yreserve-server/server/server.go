@@ -6,22 +6,22 @@ import (
 	"os"
 	"time"
 
-	"github.com/MiteshSharma/project/api/middleware"
+	"github.com/thetogi/YReserve2/api/middleware"
 
-	"github.com/MiteshSharma/project/bi"
-	"github.com/MiteshSharma/project/eventdispatcher"
+	"github.com/thetogi/YReserve2/bi"
+	"github.com/thetogi/YReserve2/eventdispatcher"
 
 	"github.com/urfave/negroni"
 
-	"github.com/MiteshSharma/project/api"
-	"github.com/MiteshSharma/project/app"
-	"github.com/MiteshSharma/project/bus"
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/metrics"
-	"github.com/MiteshSharma/project/model"
-	"github.com/MiteshSharma/project/repository"
-	"github.com/MiteshSharma/project/setting"
 	"github.com/gorilla/mux"
+	"github.com/thetogi/YReserve2/api"
+	"github.com/thetogi/YReserve2/app"
+	"github.com/thetogi/YReserve2/bus"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/metrics"
+	"github.com/thetogi/YReserve2/model"
+	"github.com/thetogi/YReserve2/repository"
+	"github.com/thetogi/YReserve2/setting"
 )
 
 type Server struct {

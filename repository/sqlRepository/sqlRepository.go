@@ -3,9 +3,9 @@ package sqlRepository
 import (
 	"os"
 
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/model"
 	"github.com/jinzhu/gorm"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/model"
 
 	// This package is used as mysql driver with gorm
 	_ "github.com/jinzhu/gorm/dialects/mysql"

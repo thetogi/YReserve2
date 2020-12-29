@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/MiteshSharma/project/model"
+import "github.com/thetogi/YReserve2/model"
 
 type Repository interface {
 	Close() error

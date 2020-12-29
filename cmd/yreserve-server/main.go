@@ -40,11 +40,11 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/MiteshSharma/project/setting"
+	"github.com/thetogi/YReserve2/setting"
 
-	"github.com/MiteshSharma/project/cmd/server"
+	"github.com/thetogi/YReserve2/cmd/yreserve-server/server"
 
-	"github.com/MiteshSharma/project/logger"
+	"github.com/thetogi/YReserve2/logger"
 )
 
 var version = "1.0.0"

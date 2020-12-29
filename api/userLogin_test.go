@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 )
 
 func TestUserLogin(t *testing.T) {

@@ -1,12 +1,12 @@
 package api
 
 import (
-	"github.com/MiteshSharma/project/logger"
 	"github.com/gorilla/mux"
+	"github.com/thetogi/YReserve2/logger"
 
-	"github.com/MiteshSharma/project/app"
-	"github.com/MiteshSharma/project/metrics"
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/app"
+	"github.com/thetogi/YReserve2/metrics"
+	"github.com/thetogi/YReserve2/model"
 )
 
 type API struct {

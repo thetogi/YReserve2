@@ -1,13 +1,13 @@
 package app
 
 import (
-	"github.com/MiteshSharma/project/bi"
-	"github.com/MiteshSharma/project/bus"
-	"github.com/MiteshSharma/project/logger"
-	"github.com/MiteshSharma/project/metrics"
-	"github.com/MiteshSharma/project/model"
-	"github.com/MiteshSharma/project/repository"
-	"github.com/MiteshSharma/project/setting"
+	"github.com/thetogi/YReserve2/bi"
+	"github.com/thetogi/YReserve2/bus"
+	"github.com/thetogi/YReserve2/logger"
+	"github.com/thetogi/YReserve2/metrics"
+	"github.com/thetogi/YReserve2/model"
+	"github.com/thetogi/YReserve2/repository"
+	"github.com/thetogi/YReserve2/setting"
 )
 
 type AppOption struct {

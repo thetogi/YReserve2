@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MiteshSharma/project/model"
-	"github.com/MiteshSharma/project/util"
+	"github.com/thetogi/YReserve2/model"
+	"github.com/thetogi/YReserve2/util"
 )
 
 func (a *App) CreateUser(user *model.User) (*model.UserAuth, *model.AppError) {

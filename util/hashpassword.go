@@ -3,7 +3,7 @@ package util
 import (
 	"net/http"
 
-	"github.com/MiteshSharma/project/model"
+	"github.com/thetogi/YReserve2/model"
 	"golang.org/x/crypto/bcrypt"
 )
 
